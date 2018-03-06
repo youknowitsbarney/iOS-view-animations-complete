@@ -60,7 +60,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Next" id="HHP-xX-cyW">
                             <color key="tintColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="eWA-JK-B4B" kind="show" id="fgu-Ir-A1R"/>
+                                <segue destination="eWA-JK-B4B" kind="show" id="cw3-Vv-zPA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -80,15 +80,15 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fct-97-pnH">
                                 <rect key="frame" x="158.5" y="617" width="57" height="30"/>
                                 <state key="normal" title="Animate">
-                                    <color key="titleColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kNY-XU-eND">
-                                <rect key="frame" x="67" y="213" width="240" height="240"/>
+                                <rect key="frame" x="67" y="213" width="240" height="241"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="kNY-XU-eND" firstAttribute="top" secondItem="7o2-VA-G5z" secondAttribute="top" constant="149" id="D19-kt-nFn"/>
                             <constraint firstItem="kNY-XU-eND" firstAttribute="centerX" secondItem="Fct-97-pnH" secondAttribute="centerX" id="mmn-Nn-rjZ"/>
